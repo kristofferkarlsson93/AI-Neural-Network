@@ -2,7 +2,12 @@
 
 class Training:
 
-    """Trains the perceptron"""
+    """Trains the perceptron using
+    An image
+    the perceptron and its methods
+    the correct output
+    an alfa value.. the learing rate.
+    the wanted output."""
 
     def __init__(self, image, perceptron, corr_output):
         self.image = image
